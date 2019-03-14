@@ -39,3 +39,13 @@ ul {
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'fontnameRegular';
+  /*src: url('fontname.eot');*/
+  src: url('notosanshans regular.otf');
+  /*src: local('fontname Regular'),
+  local('fontname'),
+  url('fontname.woff') format('woff'),
+  url('fontname.ttf') format('truetype'),
+  url('fontname.svg#fontname') format('svg');*/
+}
