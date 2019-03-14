@@ -1,0 +1,38 @@
+
+#contact{
+    width: 270px;
+    margin: 10px auto;
+    position: relative;
+
+}
+.sty{
+    border: 1px solid #999;
+    padding: 2px 10px;
+    margin: 10px 5px;
+    width: 220px;
+}
+#norm{
+    margin: 0 auto;
+    width: 250px;
+}
+#text{
+    width: 270px;
+    padding: 5px;
+    /*text-indent: 30px;*/
+}
+#button{
+    width: 270px;
+    border: 1px solid #999;
+    padding: 2px 10px;
+}
+
+label{
+}
+label::before{
+    content: '*';
+    position: absolute;
+    color: red;
+    left: -10px;
+}
+.ps{
+    color: red;}
